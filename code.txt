@@ -1,0 +1,10 @@
+Famous_games =["Tetris","Minecraft","GTA 5","Rdr2","Wii sports","angry birds"]
+Famous_games.insert(4,"Mario kart 8")
+Famous_games.insert(5,"Pubg battlegrounds")
+Famous_games.insert(7,"Terraria")
+Famous_games.insert(8,"The witcher 3")
+other_game =Famous_games.pop()
+Famous_games.remove("Tetris")
+Famous_games.sort()
+print(Famous_games)
+print(len(Famous_games))
